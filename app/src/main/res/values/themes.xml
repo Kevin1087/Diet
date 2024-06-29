@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.HealthGoal" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.HealthGoal" parent="android:Theme.Material.Light.NoActionBar" >
+    <item name="colorPrimary">@color/greenprimary</item>
+    <item name="colorPrimaryDark">@color/white</item>
+    <item name="colorAccent">@color/black</item>
+</style>
+
+<style name="Theme.HealthGoal.NoActionBar">
+<item name="windowActionBar">false</item>
+<item name="windowNoTitle">true</item>
+</style>
 </resources>
